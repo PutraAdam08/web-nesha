@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
 </head>
 <body>
     <div class="container mx-auto">
         <div class="max-w-[54em] mx-auto mt-8 mb-14">
           <div class="max-w-[42em]">
-            <h1 class="text-7xl text-justify font-bold ">Feast your eyes on
+            <h1 class="text-7xl text-justify font-[Poppins] font-bold ">Feast your eyes on
               some of our class 
               fantastic work</h1>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row md:justify-center md:gap-24 gap-6">
-            <div class="max-w-sm mb-6 rounded overflow-hidden shadow-lg">
-                <img class="w-full aspect-video" src="/img/card-top.jpg" alt="Sunset in the mountains">
+        <div class="md:flex md:flex-row md:justify-center md:gap-24 h-[25m]">
+            <div class="max-w-sm mb-6 rounded overflow-hidden shadow-lg lg:mx-0 md:mx-0 mx-auto">
+                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/2npmRe8Hmts" alt="Musical Drama Video"></iframe>
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Musical Drama Video</div>
                   <p class="text-gray-700 text-base">
@@ -26,8 +32,8 @@
                   </p>
                 </div>
             </div>
-            <div class="max-w-sm mb-5 rounded overflow-hidden shadow-lg">
-                <img class="w-full aspect-video" src="/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="max-w-sm mb-5 rounded overflow-hidden shadow-lg lg:mx-0 md:mx-0 mx-auto">
+                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/2npmRe8Hmts" alt="Educational Video"></iframe>
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Educational Video</div>
                   <p class="text-gray-700 text-base">
@@ -36,29 +42,20 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row md:justify-center md:gap-24 gap-6">
-          <div class="max-w-sm mb-6 rounded overflow-hidden shadow-lg">
-              <img class="w-full aspect-video" src="/img/card-top.jpg" alt="Sunset in the mountains">
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Stop Bullying Poster</div>
-                <p class="text-gray-700 text-base">
-                  7A students create a powerful 'Stop Bullying' poster, showcasing solidarity and kindness to foster a safe and inclusive school environment.
-                </p>
-              </div>
-          </div>
-          <div class="max-w-sm mb-5 rounded overflow-hidden shadow-lg">
-              <img class="w-full aspect-video" src="/img/card-top.jpg" alt="Sunset in the mountains">
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Stop bullying Narration</div>
-                <p class="text-gray-700 text-base">
-                  7A students lend their voices to a compelling 'Stop Bullying' narration, skillfully conveying the message of kindness and solidarity.
-                </p>
-              </div>
+        <div class="md:flex md:flex-row md:justify-center md:gap-24">
+          <a href="./gallery.html">
+            <div class="max-w-sm h-96 mb-6 rounded overflow-hidden hover:scale-110 hover:mt-3 shadow-lg lg:mx-0 md:mx-0 mx-auto cursor-pointer" href="./gallery.html">
+                <img class="w-full aspect-video object-cover" src="./gallery/poster/Mahadewi Chelsea Alodia Zahara_ 20-3.png" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Stop Bullying Poster</div>
+                  <p class="text-gray-700 text-base">
+                    7A students create a powerful 'Stop Bullying' poster, showcasing solidarity and kindness to foster a safe and inclusive school environment.
+                  </p>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-col md:flex-row md:justify-center md:gap-24 gap-6">
-          <div class="max-w-sm mb-6 rounded overflow-hidden shadow-lg">
-              <img class="w-full aspect-video" src="/img/card-top.jpg" alt="Sunset in the mountains">
+          </a>
+          <div class="max-w-sm h-96 mb-6 rounded overflow-hidden shadow-lg lg:mx-0 md:mx-0 mx-auto">
+              <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/2npmRe8Hmts" alt="Yel-Yel Video"></iframe>
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Yel-Yel Video</div>
                 <p class="text-gray-700 text-base">
@@ -66,17 +63,9 @@
                 </p>
               </div>
           </div>
-          <div class="max-w-sm mb-5 rounded overflow-hidden shadow-lg">
-              <img class="w-full aspect-video" src="/img/card-top.jpg" alt="Sunset in the mountains">
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Project Insight</div>
-                <p class="text-gray-700 text-base">
-                  7A students meticulously document their 'Stop Bullying' project, capturing the journey of awareness and action. Through photos, reflections, and insights, they showcase the dedication and impact of their collective efforts.
-                </p>
-              </div>
-          </div>
         </div>
-        
+        <div class="mb-16"></div>
+      </div>
     </div>
 </body>
 </html>
